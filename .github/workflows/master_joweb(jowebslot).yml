@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - joweb
 on:
   push:
     branches:
-      - master
+      - jowebslot
   workflow_dispatch:
 
 jobs:
